@@ -1,0 +1,12 @@
+[package]
+name = "boltzmann-agent"
+version = "0.1.0"
+edition = "2024"
+description = "Boltzmann distribution applied to agent action selection and multi-agent systems"
+license = "MIT"
+repository = "https://github.com/SuperInstance/boltzmann-agent"
+keywords = ["boltzmann", "agent", "annealing", "multi-agent", "free-energy"]
+categories = ["science", "algorithms", "simulation"]
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
